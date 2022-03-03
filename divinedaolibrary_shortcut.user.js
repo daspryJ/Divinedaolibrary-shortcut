@@ -26,6 +26,9 @@ document.onkeyup = function(e) { // key pressed
             links.next = elem;
         }
     }
+    if(!links.next) {
+       links.next = document.getElementsByClassName("next-special")[0]; // ad next to links object for new chapters
+    }
 
     if(e.keyCode === 37) { // left key
         location.href = links.prev.href;
