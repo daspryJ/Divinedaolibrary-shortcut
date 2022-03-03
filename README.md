@@ -1,4 +1,4 @@
-# Divinedaolibrary shortcuts
+# Divine Dao Library shortcuts
 Allow the use of next/previous keyboard arrows to navigate to next/previous chapter on https://www.divinedaolibrary.com/
 # Usage
 I have written the script for Tampermonkey in Chrome. I have not tested it in other browser, but you can try, if you're feeling lucky.
